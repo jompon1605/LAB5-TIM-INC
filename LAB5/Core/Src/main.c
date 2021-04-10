@@ -53,7 +53,7 @@ UART_HandleTypeDef huart2;
 
 //12 P/R , Gear reduction 1 : 64
 //DMA Buffer
-uint16_t capturedata[CAPTURENUM] = { 0 };
+uint32_t capturedata[CAPTURENUM] = { 0 };
 //diff time of capture data
 int32_t DiffTime[CAPTURENUM-1] = { 0 };
 //Mean difftime
